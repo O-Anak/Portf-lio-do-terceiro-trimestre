@@ -1,0 +1,22 @@
+*{
+background: linear-gradient(to left, #0ABFBC, #FC354C);
+}
+
+h1 {
+	color: darkgreen;
+	font-size: 58px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	color: chartreuse;
+	font-size: 32px;
+	text-align: justify;
+}
+
+#volta {
+	color: purple;
+	font-size: 20px;
+	text-align: center;
+}

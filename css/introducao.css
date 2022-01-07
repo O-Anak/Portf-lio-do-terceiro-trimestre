@@ -1,0 +1,20 @@
+*{
+background: linear-gradient(to left, #480048, #FC354C);
+}
+
+h1{
+	color: chartreuse;
+	font-size: 58px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	color: lightgreen;
+	font-size: 32px;
+	text-align: justify;
+}
+
+a{
+	color: lightsalmon;
+}

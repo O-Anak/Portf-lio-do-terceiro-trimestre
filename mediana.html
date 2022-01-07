@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Portfólio 3° Trimestre</title>
+        <link type="text/css" rel="stylesheet" href="css/topicos.css">
+	</head>
+	<body>
+		<h1>Encontro da Mediana dentro de uma estatística</h1>
+		
+		<h2>Porque motivo escolhi este?</h2>
+		<p>Porque é uma parte relativamente curta, já que o próprio conteúdo se autodivide em pequenas etapas, então fica muito mais simples de apresentar e exemplificar. A mediana em si é uma parte muito fácil dentro de estatística.</p>
+		<h2>Como ele funciona? Qual sua lógica?</h2>
+		<p>Existem duas maneiras de descobrir a mediana, uma manualmente (geralmente para poucos dados individuais) e outra através da fórmula (voltada para muitos dados agrupados em gráficos ou tabelas).</p>
+		<p>Na maneira manual, você primeiramente ordena crescentemente os valores e pode ir riscando/marcando os que ficam do início e no fim um por um até chegar no centro. Caso o número de valores for ímpar, o centro terá apenas um número, logo este é a mediana; agora caso o número seja par, o centro será de dois números, portanto será necessário soma-los e então dividi-los por 2 para obter a mediana. Exemplo</p>
+		<p id="exemplo">5, 6, 9, 3, 7 → 3, 5, 6, 7, 9 → mediana = 6</p>
+		<p id="exemplo">5, 3, 11, 8 → 3, 5, 8, 11 → mediana = (5+8) / 2 = 7, 5</p>
+		<p>Passando para o jeito da fórmula, é comum que a quantidade de valores seja bem maior, pois estará sendo calculado a quantidade de valores dentro de um determinado espaço numérico. Desta forma, de início todas estas quantidades devem ser somadas, obtido o resultado, você observará se ele é par ou ímpar; em caso de par, a fórmula aplicada será: (n / 2) + 1; em caso de ímpar, a fórmula aplicada será (n + 1) / 2.</p>
+		<p>Tal soma ainda não mostrará a mediana, mas sim a sua posição naquele espaço numérico. Por isso, ainda será necessário subtrai-la pela quantidade de valores (seguindo a ordem do gráfico/tabela), até que o resultado seja um número menor ou igual a zero, assim finalmente definindo o espaço em que a mediana se localiza. Exemplo:</p>
+		<table>
+			<tr>
+				<th>Intervalo numérico</th>
+				<th>Quantidade de valores</th>
+			</tr>
+			<tr>
+				<td>1-3</td>
+				<td>34
+				</td>
+			</tr>
+			<tr>
+				<td>3-5</td>
+				<td>48</td>
+			</tr>
+			<tr>
+				<td>5-7</td>
+				<td>22</td>
+			</tr>
+		</table>
+		<p id="exemplo">34 + 48 + 22 = 104 (par) → (104 / 2) + 1 = 53 (posição da mediana)</p>
+		<p id="exemplo">53 - 34 = 19 → 19 – 48 = -29 (mediana = 3 - 5)</p>
+			
+		<h2>Como estudei esse conteúdo?</h2>
+		<p>Acompanhando as aulas, conferindo no PDF com anotações, comparando as respostas com o gabarito durante as atividades e assistindo alguns vídeos relacionados na internet.</p>
+		
+		<b><a href="final.html">Autoavaliação, avaliação da proposta</a></b>
+		<br/>
+		<b><a href="index.html">Retornar a tela inicial</a></b>
+		<br/>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+background: linear-gradient(to right, #480048, #FC354C);
+}
+
+h1{
+	color:limegreen;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2{
+	color: chartreuse;
+	font-size: 36px;
+	font-style: italic;
+}
+
+p{
+	font-size: 24px;
+	color: lightgreen;
+	text-align: justify;
+}
+
+#exemplo{
+	font-size: 26px;
+	color:chartreuse;
+	text-align: center;
+}
+
+table{
+	border-color: chartreuse;
+	margin-left: auto;
+    margin-right: auto;
+	width: 1000px;
+	height: 200px;
+}
+
+td, th{
+	text-align: center;
+	vertical-align: middle;
+	color: chartreuse;
+	font-size: 24px;
+}
+
+a{
+	color: lightsalmon;
+}

@@ -1,0 +1,22 @@
+*{
+background: linear-gradient(to right, #0ABFBC, #FC354C);
+}
+
+h1 {
+	color: darkgreen;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	color:chartreuse;
+	font-size: 30px;
+	font-style: italic;
+}
+
+p {
+	color: purple;
+	font-size: 20px;
+	text-align: center;
+}
